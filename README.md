@@ -50,11 +50,13 @@ It will auto refresh with each change.
 ```
 $ npm i circe-ui
 ```
-#### 2. Link CSS directly
-<link rel="stylesheet" href="/node_modules/circe-ui/main.css">
+#### 2. Import library SCSS in your styles
+```css
+@import '../node_modules/circe-ui/dist/main.css';
+```
 
 
-## Versions
+## Package versions
 
 | Version       | Date       | Notes            |
 |---------------|------------|------------------|
