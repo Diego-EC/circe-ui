@@ -1,6 +1,6 @@
 {
   "name": "circe-ui",
-  "version": "1.0.0-alpha.1",
+  "version": "1.0.1-alpha.1",
   "description": "Circe User Interface - style library",
   "main": "index.js",
   "scripts": {

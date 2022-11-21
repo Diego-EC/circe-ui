@@ -60,4 +60,5 @@ $ npm i circe-ui
 
 | Version       | Date       | Notes            |
 |---------------|------------|------------------|
+| 1.0.1-alpha.1 | 2022/11/21 | Updated readme. |
 | 1.0.0-alpha.1 | 2022/11/21 | Initial version. |
