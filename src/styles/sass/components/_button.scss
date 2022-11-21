@@ -1,0 +1,72 @@
+$cui-button-font-size: $cui-default-font-size;
+$cui-button-line-height: 1.6rem;
+$cui-button-border-radius: 0.25rem;
+$cui-button-border-width: 0.16rem;
+$cui-button-padding-y-axis: 0.375rem;
+$cui-button-padding-x-axis: 0.75rem;
+$cui-button-background-color: $white-standard;
+$cui-button-border-color: $black-standard;
+$cui-button-background-color--hover: $circe-grey-50;
+$cui-button-color--hover: $white-standard;
+$cui-button-box-shadow-color--hover: $circe-grey-50;
+$cui-button-text-color: $black-standard;
+
+$cui-button__primary-color: $white-standard;
+$cui-button__primary-background-color: $circe-orange;
+$cui-button__primary-box-shadow-color--hover: $circe-orange;
+$cui-button__primary-border-color: $circe-orange;
+$cui-button__primary-background-color--hover: $circe-orange-50;
+$cui-button__secondary-color: $white-standard;
+$cui-button__secondary-background-color: $circe-dark-blue;
+$cui-button__secondary-box-shadow-color--hover: $circe-dark-blue;
+$cui-button__secondary-border-color: $circe-dark-blue;
+$cui-button__secondary-background-color--hover: $circe-dark-blue-50;
+$cui-button__basic-background-color: $circe-light-blue;
+$cui-button__basic-box-shadow-color--hover: $circe-light-blue;
+$cui-button__basic-border-color: $circe-light-blue;
+$cui-button__basic-background-color--hover: $circe-light-blue-50;
+$cui-button__basic-text-color: $black-standard;
+
+.cui-button {
+    color: $cui-button-text-color;
+    padding: $cui-button-padding-y-axis $cui-button-padding-x-axis;
+    border: $cui-button-border-width solid transparent;
+    border-radius: $cui-button-border-radius;
+    font-size: $cui-button-font-size;
+    line-height: $cui-button-line-height;
+    background-color: $cui-button-background-color;
+    border-color: $cui-button-border-color;
+    &:hover {
+        background-color: $cui-button-background-color--hover;
+        color: $cui-button-color--hover;
+        box-shadow: 0 0 0.8rem $cui-button-box-shadow-color--hover;  
+    }
+    &.cui-button__primary {
+        color: $cui-button__primary-color;
+        background-color: $cui-button__primary-background-color;
+        border-color: $cui-button__primary-border-color;
+        &:hover {
+            background-color: $cui-button__primary-background-color--hover;
+            box-shadow: 0 0 0.8rem $cui-button__primary-box-shadow-color--hover;  
+        }
+    }
+    &.cui-button__secondary {
+        color: $cui-button__secondary-color;
+        background-color: $cui-button__secondary-background-color;
+        border-color: $cui-button__secondary-border-color;
+        &:hover {
+            background-color: $cui-button__secondary-background-color--hover;
+            box-shadow: 0 0 0.8rem $cui-button__secondary-box-shadow-color--hover; 
+        }
+    }
+    &.cui-button__basic {
+        color: $cui-button__basic-text-color;
+        background-color: $cui-button__basic-background-color;
+        border-color: $cui-button__basic-border-color;
+        &:hover {
+            background-color: $cui-button__basic-background-color--hover;
+            // offset-x | offset-y | blur-radius | spread-radius | color
+            box-shadow: 0 0 0.8rem 0.3rem $cui-button__basic-box-shadow-color--hover;
+        }
+    }
+}

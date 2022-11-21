@@ -1,0 +1,36 @@
+{
+  "name": "circe-ui",
+  "version": "1.0.0-alpha.1",
+  "description": "Circe User Interface - style library",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack -w",
+    "compile:sass": "sass src/styles/sass/main.scss src/styles/css/circe-ui.css -w"
+  },
+  "keywords": [
+    "scss",
+    "sass",
+    "css",
+    "ui",
+    "user interface",
+    "style library"
+  ],
+  "author": "Diego Ezquerro <diegoezquerro@gmail.com> (https://www.linkedin.com/in/diegoec/)",
+  "homepage": "https://github.com/Diego-EC/circe-ui",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Diego-EC/circe-ui"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.7.2",
+    "cssnano": "^5.1.14",
+    "mini-css-extract-plugin": "^2.7.0",
+    "postcss-loader": "^7.0.1",
+    "sass": "^1.56.1",
+    "sass-loader": "^13.2.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.0"
+  }
+}
